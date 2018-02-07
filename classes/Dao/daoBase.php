@@ -1,6 +1,6 @@
 <?php
 
-class DaoBDD {
+class daoBase {
     protected $bdd;
     
     public function __construct($config){
