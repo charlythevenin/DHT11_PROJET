@@ -1,5 +1,7 @@
 <?php
+namespace Dao;
 include 'daoBase.php';
+use daoBase;
 
 class daoMeasure extends daoBase {
         
@@ -28,7 +30,7 @@ class daoMeasure extends daoBase {
             
         }
         
-        public function deleteMesure($deleteMesure) {
+        public function deleteMesure($id) {
             
             $query = $this->bdd->prepare("DELETE FROM relevees WHERE id = :id");
             
