@@ -1,6 +1,6 @@
 <?php
-
-class measure
+namespace Domaine;
+class Measure
 {
     public $id;
     
